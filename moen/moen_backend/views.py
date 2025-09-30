@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth.models import Group, User
 from rest_framework import permissions, viewsets
 
-from mooen.moen_backend.serializers import GroupSerializer, UserSerializer
+from moen_backend.serializers import GroupSerializer, UserSerializer
 
 # Create your views here.
 class UserViewSet(viewsets.ModelViewSet):
